@@ -1,0 +1,11 @@
+new_member = input('Please, enter the new member: ')
+
+file = open('members.txt', 'r')
+member_list = file.readlines()
+print(member_list)
+file.close()
+member_list.append(new_member+'\n')
+file = open('members.txt', 'w')
+file.writelines(member_list)
+file.close()
+print(member_list)
