@@ -1,4 +1,0 @@
-Dog + English
-HairDresser at 13.00
-Learning Python
-Training ++++++
